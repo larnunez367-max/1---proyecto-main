@@ -67,7 +67,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <body>
 
     <div>
-        <h1>Iniciar sesión</h1>
+        <h1>Movistar Arena</h1>
         <p class="subtitulo">Ingresá con tu correo y contraseña</p>
 
         <?php if ($mensaje !== ''): ?>

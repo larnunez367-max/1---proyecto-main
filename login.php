@@ -74,7 +74,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <body>
 
     <div>
-        <h1>Crear cuenta</h1>
+        <h1>Movistar Arena</h1>
         <p class="subtitulo">Completá los datos para registrarte</p>
 
         <?php if (!empty($errores)): ?>

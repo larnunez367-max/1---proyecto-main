@@ -17,7 +17,7 @@ $esAdmin = ($_SESSION['usuario_rol'] ?? '') === 'admin';
 
     <nav class="navbar">
         <a id="loguito" href="panel.php">
-            <img src="img/logo.png" alt="Logo del teatro" height="48">
+            <img src="img/logo.png" alt="Logo de Movistar Arena" height="48">
         </a>
         <ul class="nav-links">
             <li><a href="form.php">Reservar entradas</a></li>
@@ -30,7 +30,7 @@ $esAdmin = ($_SESSION['usuario_rol'] ?? '') === 'admin';
 
     <div>
         <h1>Hola, <?= e($user) ?></h1>
-        <p class="subtitulo">Elegí tu función y reservá tus entradas</p>
+        <p class="subtitulo">Elegí tu concierto y reservá tus entradas</p>
 
         <div class="botones-container">
             <a href="form.php" class="btn-guardar">Reservar entradas</a>
@@ -38,7 +38,7 @@ $esAdmin = ($_SESSION['usuario_rol'] ?? '') === 'admin';
     </div>
 
     <footer>
-        &copy; <?= date('Y') ?> Teatro. Todos los derechos reservados.
+        &copy; <?= date('Y') ?> MOVISTAR ARENA. Todos los derechos reservados.
     </footer>
 
 </body>
